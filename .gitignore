@@ -1,0 +1,5 @@
+# Dependencies npm
+node_modules
+
+# Resources production and dev
+dist
