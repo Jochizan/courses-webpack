@@ -2,7 +2,7 @@ import style from './style.css';
 import mochi from './assets/mochi5.png';
 import yuna from './assets/yuna14.jpg';
 import data from './data.json';
-import { HelloWorld } from './components/HelloWorld';
+import { HelloWorld } from './components/HelloWorld.ts';
 
 // document.getElementById(
 // 'app'
@@ -16,7 +16,7 @@ const $img = d.createElement('img');
 const $nav = d.createElement('nav');
 
 let menu = '';
-let hello = new HelloWorld('Vanilla JS');
+let hello = new HelloWorld('Typescript');
 
 data.links.forEach((el) => (menu += `<a href="${el[1]}">${el[0]}</a>`));
 
